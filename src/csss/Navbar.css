@@ -1,27 +1,49 @@
-.nav{
+.nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 40px 120px;
     color: white;
 }
-.nav-logo{
-    font-family: Outfit;
+
+.nav-logo {
+    font-family: Outfit, sans-serif;
     font-size: 42px;
     font-weight: 500;
 }
-.nav-menu{
+
+.nav-menu ul {
     display: flex;
     align-items: center;
     list-style: none;
     font-size: 18px;
-    gap: 90px;
+    gap: 60px;
+    margin: 0;
+    padding: 0;
     color: white;
 }
-.nav-contact{
+
+.nav-menu ul li {
+    cursor: pointer;
+    padding: 8px 18px;
+    border-radius: 30px;
+    transition: background 0.2s, color 0.2s;
+}
+
+.nav-menu ul li:hover:not(.nav-contact) {
+    background: rgba(255,255,255,0.15);
+}
+
+.nav-contact {
     border-radius: 50px;
     padding: 10px 30px;
     background-color: white;
     color: #262626;
+    font-weight: 500;
+    transition: background 0.2s, color 0.2s;
+}
 
+.nav-contact:hover {
+    background: #262626;
+    color: white;
 }
