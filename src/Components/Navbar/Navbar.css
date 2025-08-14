@@ -13,6 +13,7 @@
 .nav-menu{
     display: flex;
     align-items: center;
+    list-style: none;
     font-size: 18px;
     gap: 90px;
     color: white;
