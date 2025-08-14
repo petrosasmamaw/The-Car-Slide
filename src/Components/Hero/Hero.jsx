@@ -1,4 +1,4 @@
-import './Hero.css'
+import '../../csss/Hero.css';
 import arrrow_btn from '../../assets/arrow_btn.png';
 import pause_icon from '../../assets/pause_icon.png';
 import play_icon from '../../assets/play_icon.png';

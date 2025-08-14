@@ -1,4 +1,4 @@
-import './Background.css'
+import '../../csss/Background.css';
 import Video1 from '../../assets/video1.mp4';
 import image1 from '../../assets/image1.png';
 import image2 from '../../assets/image2.png';

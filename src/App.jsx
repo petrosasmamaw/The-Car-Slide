@@ -1,4 +1,4 @@
-import './App.css'
+import './csss/App.css'
 import { useState, useEffect } from 'react';
 import Background from './Components/Background/Background.jsx';
 import Navbar from './Components/Navbar/Navbar.jsx';
